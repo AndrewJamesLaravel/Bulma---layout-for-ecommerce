@@ -2,16 +2,9 @@
   <section class="section">
     <div class="container">
       <div class="columns">
-        <div class="column mr-5 box">
+        <div class="column mr-5 px-0 py-0 box">
           <nav class="panel is-danger">
             <p class="panel-heading">Каталог</p>
-            <div class="panel-block">
-              <p class="control has-icons-left">
-                <span class="icon is-left">
-                  <i class="fas fa-search" aria-hidden="true"></i>
-                </span>
-              </p>
-            </div>
             <a class="panel-block is-active">
               <span class="panel-icon">
                 <fa icon="shopping-bag" aria-hidden="true" />
@@ -64,3 +57,9 @@ export default {
   name: 'ASidebarContent',
 }
 </script>
+
+<style lang="scss" scoped>
+.panel-block {
+  padding: 12px;
+}
+</style>
